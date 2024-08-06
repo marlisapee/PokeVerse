@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root {
+  --eerie-black: #222222ff;
+  --battleship-gray: #919191ff;
+  --white: #ffffffff;
+  --ultra-violet: #4b4e6dff;
+  --moonstone: #68959aff;
+  --tiffany-blue: #84dcc6ff;
+  --tiffany-blue-2: #8dc0bdff;
+  --cadet-gray: #95a3b3ff;
+}
+
+.source-sans-3-regular {
+  font-family: 'Source Sans 3', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.source-sans-3-bold {
+  font-family: 'Source Sans 3', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.source-sans-3-italic-regular {
+  font-family: 'Source Sans 3', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+}
+
+* {
+  margin: 0;
+}
