@@ -3,7 +3,7 @@ import axios from 'axios';
 export const getPokemon = async () => {
   try {
     const response = await axios.get(
-      'https://pokeapi.co/api/v2/pokemon?limit=10&offset=0'
+      'https://pokeapi.co/api/v2/pokemon?limit=151'
     );
     console.log('response: ', response.data);
     return response.data;
