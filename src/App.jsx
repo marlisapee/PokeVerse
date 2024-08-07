@@ -26,13 +26,13 @@ const App = () => {
       >
         {loading && <Spinner />}
         {error && <p>Error: {error}</p>}
-        {pokemonObjects &&
-          pokemonObjects.map((poke, index) => (
+        {pokemon &&
+          pokemon.map((poke, index) => (
             <Card
               key={index}
               cardText={poke.name}
               cardTitle={poke.name}
-              imgUrl={poke.imgUrl}
+              imgUrl={`https://img.pokemondb.net/artwork/${poke.name}.jpg`}
               links={links}
               listItems={listItems}
             />
